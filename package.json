@@ -1,0 +1,44 @@
+{
+  "name": "enrichr-cli",
+  "version": "0.1.0",
+  "description": "Read the design of any website from your terminal: fonts, colors, type scale, spacing and CSS variables, measured in your own browser. Optional deep analysis through Enrichr.",
+  "type": "module",
+  "bin": {
+    "enrichr": "bin/enrichr.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "sync-probes": "node scripts/sync-probes.mjs"
+  },
+  "keywords": [
+    "design-tokens",
+    "css-variables",
+    "fonts",
+    "font-finder",
+    "color-palette",
+    "website-analysis",
+    "reverse-engineering",
+    "tailwind",
+    "mcp",
+    "cli"
+  ],
+  "homepage": "https://enrichr.dev/tools/enrichr-cli.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisjeffries24/enrichr-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisjeffries24/enrichr-cli/issues"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
